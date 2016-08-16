@@ -1,0 +1,10 @@
+* TODO htmlacademy
+* TODO khanacademy
+
+* TODO init Flask project
+
+
+* Python staff
+ - [ ] What is WSGI application?
+
+* DONE Create Github project
