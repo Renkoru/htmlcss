@@ -1,3 +1,30 @@
 body {
   /* color: red; */
 }
+
+.centered {
+  max-width: 50%;
+  margin: 0 auto;
+
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+.grayed {
+  background-color: #eee;
+  border: 1px solid #ddd;
+
+  text-align: center;
+}
+
+.bordered-wrapper {
+  border: 1px solid #ccc;
+}
+
+.width400px {
+  width: 400px;
+}
+
+.margined10px {
+  margin: 10px;
+}

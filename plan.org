@@ -1,10 +1,16 @@
 * TODO htmlacademy
 * TODO khanacademy
+* TODO Traslate all text into English
 
-* TODO init Flask project
 
+* Html staff
+ - [ ] meta
+ - [X] meta charset
+ - [ ] html tag lang attribute
 
 * Python staff
  - [ ] What is WSGI application?
 
+
 * DONE Create Github project
+* DONE init Flask project
