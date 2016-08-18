@@ -1,0 +1,61 @@
+body {
+  font-size: 20px;
+}
+
+.centered {
+  max-width: 50%;
+  margin: 0 auto;
+
+  border: 1px solid $border-color;
+  padding: 5px 10px;
+}
+
+.grayed {
+  background-color: #eee;
+  border: 1px solid $border-color;
+
+  text-align: center;
+}
+
+.bordered-wrapper {
+  border: 1px solid $border-color;
+}
+
+.notes {
+  margin-bottom: 5em;
+}
+
+.notes article {
+  width: 70%;
+  padding: 1em 2em;
+  border-bottom: 1px solid $border-color;
+}
+
+.tag-inline {
+  color: $tag-inline-color;
+}
+
+.style-inline {
+  color: $style-inline-color;
+}
+
+.attribute-inline {
+  color: $attribute-inline-color;
+}
+
+.label {
+  display: inline-block;
+  padding: .2em .5em;
+
+  &-green {
+    background-color: $label-green-color;
+  }
+
+  &-yellow {
+    background-color: $label-yellow-color;
+  }
+
+  &-right {
+    float: right;
+  }
+}

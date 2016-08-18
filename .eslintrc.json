@@ -1,0 +1,16 @@
+{
+  "extends": "google",
+  "installedESLint": true,
+  "rules": {
+    "padded-blocks": "off",
+    "comma-dangle": ["error", "only-multiline"],
+    "max-len": ["error", 100],
+    "space-before-function-paren": ["error", "always"],
+    "object-curly-spacing": ["error", "always"]
+  },
+  "globals": {
+    "__dirname": true,
+    "require": true
+  }
+
+}
