@@ -2,6 +2,10 @@ body {
   font-size: 20px;
 }
 
+footer {
+  clear: both;
+}
+
 .centered {
   max-width: 50%;
   margin: 0 auto;
@@ -21,12 +25,23 @@ body {
   border: 1px solid $border-color;
 }
 
+.content {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+.right-sidebar {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
 .notes {
   margin-bottom: 5em;
 }
 
 .notes article {
-  width: 70%;
   padding: 1em 2em;
   border-bottom: 1px solid $border-color;
 }
@@ -57,5 +72,21 @@ body {
 
   &-right {
     float: right;
+  }
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+
+  &::before {
+    content: "";
+    display: table;
+  }
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
